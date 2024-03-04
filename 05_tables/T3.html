@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Tables</title>
+
+        <style>
+            table{
+
+                width: 100%;
+            }
+            table, th, tr, td{
+
+                border: 1px solid blue;
+                padding: 10px;
+                border-spacing: 5px;
+                border-style: dotted;
+
+            }
+            th, td{
+
+                height: 40px;
+                vertical-align: top;
+                vertical-align: bottom;
+
+                text-align: center;
+                text-align: right;
+                text-align: left;
+            }
+            caption{
+
+                caption-side: top;
+                caption-side: bottom;
+            }
+        </style>
+    </head>
+    <body>
+        
+        
+        <table>
+            <caption> Tabular Data </caption>
+            <thead>
+
+            <tr class="d">
+                <th> P.NO </th>
+                <th> Product </th>
+                <th> Product price </th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td> 01</td>
+                <td> SamSung</td>
+                <td> 58000</td>
+            </tr>
+
+            <tr>
+                <td> 02</td>
+                <td> LG </td>
+                <td> 87900</td>
+            </tr>
+
+            <tr>
+                <td> 03</td>
+                <td> SONY</td>
+                <td> 67584</td>
+
+                
+            </tr>
+            
+            <tr>
+                <td>04</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2"> price</td>
+                <td> 728790</td>
+            </tr>
+        </tfoot>
+        </table>
+    </body>
+</html>
