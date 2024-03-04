@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+        <title> forms tags </title>
+        <style>
+            form,fieldset{
+                text-decoration: solid;
+                background-color: yellow;
+                margin: 10px;
+                border: 2px;
+                color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend style="color: red;"> fill the form </legend>
+
+            <form action="" method="post">
+                <label for="fname"> first name:</label>
+                <input type="text" id="fname" name="f_name" required placeholder="Enter first name"> <br><br>
+
+                <label for=",name"> last name:</label>
+                <input type="text" id="lname" name="l_name" required placeholder="Enter last name"> <br><br>
+
+                <label for="email"> email:</label>
+                <input type="text" id="email" name="e_mail" required placeholder="Enter your email"><br><br>
+
+                <label for="num"> contact:</label>
+                <input type="text" id="num" name="num" required placeholder="Enter your contact"><br> <br>
+
+                <label for="pass">password</label>
+                <input type="password" id="pass" name="pass" required spellcheck="true" placeholder="Enter password"><br><br>
+                
+                <label for="gender "> male </label>
+                <input type="radio" id="male" name="gender">
+                
+                <label for="gender"> female </label>
+                <input type="radio" id="female" name="gender"> <br><br>
+
+                <label for=""> skills:</label>
+                <label for="java"> java</label>
+                <input type="checkbox" id="java" name="java"><br> <br>
+
+                
+                <label for=""> skills:</label>
+                <label for="python"> python</label>
+                <input type="checkbox" id="python" name="python" required placeholder="Enter your contact"><br> <br>
+
+                
+                <label for=""> skills:</label>
+                <label for="js"> javascript</label>
+                <input type="checkbox" id="js" name="js"><br> <br>
+
+                <input type="date" name="" id=""> <br><br>
+
+
+                 <label for="file"> upload</label>
+                <input type="file" name="file" id=""><br><br>
+
+
+                
+                <input type="submit" name="" id="">
+
+            </form>
+        </fieldset>
+    </body>
+  </html>
