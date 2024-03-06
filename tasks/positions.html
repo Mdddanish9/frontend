@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Layout</title>
+    <style>
+        .header{
+            position: relative;
+            height: 50px;
+            text-align: center;
+            color: black;
+            background-color: #6baddf;
+        }
+        .sidebar{
+            position: absolute;
+            height: 580px;
+            width: 420px;
+            background-color: #01193f;
+            color: aqua;
+            text-align: center;
+        }
+        .maincontent{
+            position: absolute;
+            left: 430px;
+            width: 1079px;
+            height: 580px;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        .footer{
+            position: relative;
+            margin-top: 580px;
+            height: 80px;
+            text-align: center;
+            background-color: #d2b486;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="headerContainer">
+        <h1>header content</h1>    
+        </div>
+    </header>
+    <section class="sidebar">
+        <div class="sidebarContainer">
+
+            <h2> sidebar content</h2>
+           
+        </div>
+    </section>
+    <section class="maincontent">
+        <div>  <h2>main content</h2></div>
+    </section>
+    <footer class="footer">
+        <div class="footercontent"> <h2> FOOTER</h2> </div>
+    </footer>
+    
+</body>
+</html>
