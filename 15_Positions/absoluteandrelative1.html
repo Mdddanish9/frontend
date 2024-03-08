@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> absolute and relative position project 1</title>
+
+        <style>
+            div{
+                padding: 10px;
+            }
+
+            div:nth-child(2){
+                position: relative;
+                top: 0px;
+                background-color: aquamarine;
+            }
+            .c2{
+                position: absolute;
+                background-color: burlywood;
+                top: 0px;
+            }
+        </style>
+    </head>
+
+
+    <body>
+        
+        <div style="border: 2px solid goldenrod"> ONE</div>
+
+        <div style="border: 2px solid azure">
+
+            TWO<div class="c2"> 2.1</div>
+        </div>
+        <div style="border: 2px solid slateblue"> THREE</div>
+        <div style="border: 2px solid crimson"> FOUR</div>
+    </body>
+</html>
